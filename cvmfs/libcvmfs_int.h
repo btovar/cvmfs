@@ -214,7 +214,7 @@ class cvmfs_context : SingleCopy {
   /**
    * Number of reserved file descriptors for internal use
    */
-  static const int kNumReservedFd = 512;
+  static const int kNumReservedFd = 16;
   static const unsigned int kMd5pathCacheSize = 32000;
 
   BackoffThrottle *backoff_throttle_;
